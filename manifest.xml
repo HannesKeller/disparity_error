@@ -1,0 +1,25 @@
+<package>
+  <description brief="disparity_error">
+
+     disparity_error
+
+  </description>
+  <author>Hannes Keller</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/disparity_error</url>
+  
+  <depend package="pcl_conversions"/>
+  <depend package="pcl_ros"/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="shape_msgs"/>
+  <depend package="std_msgs"/>
+  <depend package="stereo_msgs"/>
+  <depend package="image_geometry"/>
+  <depend package="message_filters"/>
+  <depend package="std_srvs"/>
+
+</package>
+
+
