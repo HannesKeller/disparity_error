@@ -22,12 +22,11 @@ This software is built on the Robotic Operating System ([ROS]), which needs to b
 
 ### Building
 
-In order to install the Robot-Centric Elevation Mapper, clone the latest version from this repository into your catkin workspace and compile the package using ROS.
+In order to install the disparity error calculator, clone the latest version from this repository into your rosbuild workspace and compile the package using ROS.
 
-    cd catkin_workspace/src
-    git clone https://github.com/ethz-asl/elevation_mapping.git
-    cd ../
-    catkin_make
+    cd rosbuild_workspace
+    git clone https://github.com/HannesKeller/disparity_error.git
+    rosmake disparity_error
 
 
 Basic Usage
